@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale =1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>CINEMA</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>CINEMA</h1>
+    </header>
+
+    <section id="cadastre">
+        <label for="chair">CADEIRA:</label>
+        <input type="number" id="choice" name="choice" placeholder="B -">
+        <div id="radio">
+            <input type="radio" value="inteira" id="entire" name="type" checked>
+            <label for="entire">inteira</label>
+            <input type="radio" value="meia" id="half" name="type">
+            <label for="half"> meia</label>
+        </div>
+        <input type="button" value="ESCOLHER" onclick="buy()">
+    </section>
+    <section id="movieTheater"></section>
+    <section id="containerReport">
+        <div id="report"></div>
+        <input type="button" value="VOLTAR" id="encolha">
+    </section>
+    <input type="button" value="RELATÓRIO" onclick="calculation()" id="relatorio">
+    <footer>
+        <label for="register">Quantidade de ingresso para venda:</label>
+        <input type="number" name="register" id="register"placeholder="Unid" >
+        <label for="coin">Valor do ingresso:</label>
+        <input type="number" name="coin" id="coin" placeholder="R$">
+        <input type="button" value="GERAR" onclick="generate()">
+
+    </footer>
+    <br><br><br>
+    <script src="script.js"></script>
+</body>
+
+</html>
