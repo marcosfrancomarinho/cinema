@@ -128,7 +128,7 @@ function buy() { //button ESCOLHER no HTML.
         } else {
             calcRadio()
             ArrMovie[Number(choice.value)].style.backgroundColor = "red";
-            ArrMovie[Number(choice.value)].style.fontSize = "0.6vw";
+            ArrMovie[Number(choice.value)].style.fontSize = "0.65vw";
             ArrMovie[Number(choice.value)].style.fontWeight = "900";
             ArrMovie[Number(choice.value)].style.color = "white";
             ArrMovie[Number(choice.value)].style.textShadow = "1px 1px black";
