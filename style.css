@@ -44,19 +44,19 @@ label[for="register"] {
 }
 
 .chair {
+    box-sizing: border-box;
     box-shadow: 1px 1px 1px 1px white;
     border-radius: 10px;
     padding: 5px;
     margin: 10px;
     display: inline-block;
     width: 70px;
-    height: 50px;
     background-color: rgb(5, 49, 5);
-    line-height: 4;
+    line-height: 3;
     color: white;
     font-size: 0.8vw;
     font-weight: 900;
-    box-sizing: border-box;
+    
 
 }
 
