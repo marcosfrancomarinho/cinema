@@ -42,7 +42,7 @@ function check() {//verificador de campo de input.
     }
 }
 function verification() { //verificador de campo de input.
-    if (register.value.length == 0 || register.value <= 0) {
+    if (register.value.length == 0 || register.value <= 0 || coin.value < 0) {
         return true;
     } else {
         return false;
